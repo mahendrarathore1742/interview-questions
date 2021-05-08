@@ -20,38 +20,25 @@ int main(){
 
 	int n;
 	cin>>n;
-
 	vii a(n);
-
 	rep(i,0,n){
 		cin>>a[i].ff >>a[i].ss;
-
 	}
-
 	int w;
 	cin>>w;
-
 	sort(a.begin(), a.end(),compare);
 	int ans=0;
-
-
 	rep(i,0,n){
 		if(w>=a[i].ss){
 			ans+=a[i].ff;
 			w-=a[i].ss;
 			continue;
 		}
-
 		double vw=(double)a[i].ff/a[i].ss;
 		ans+=vw*w;
 		w=0;
 		break;
 	}
-
-
-		cout<<ans<<endl;
-
-
-
+	cout<<ans<<endl;
 	return 0;
 }
