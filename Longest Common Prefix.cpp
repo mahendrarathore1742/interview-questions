@@ -11,7 +11,7 @@ string longestCommonPrefix(vector<string> &A){
     
     int n = A.size()-1, i=0, m = A[0].size();
     
-    // Keep adding characters till they are same.
+   
     while(i<m && A[0][i] == A[n][i]){
         res += A[0][i];
         i++;
