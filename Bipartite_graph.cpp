@@ -56,7 +56,5 @@ int main(){
 		cout<<"It is not Bipart graph"<<endl;
 	}
 
-
-
 	return 0;
 }
