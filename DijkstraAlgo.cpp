@@ -15,7 +15,6 @@ int main(){
 		graph[u].push_back({v,w});
 		graph[v].push_back({u,w});
 	}
-
 	int src;cin>>src;
 	dist[src]=0;
 	set<pair<int,int>> s;
@@ -33,22 +32,13 @@ int main(){
 			}
 		}
 	}
-
 	for (int i = 1; i <= n; ++i)
 	{
 		if(dist[i]<inf){
 			cout<<dist[i]<<" ";
-
 		}else{
 			cout<<-1<<" ";
-
 		}
 	}
-
-
-
-
-
-
 	return 0;
 }
