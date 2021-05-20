@@ -12,18 +12,22 @@ int dp[N];
 
 int Minsquare(int n){
 	if(n==1 || n==2 || n==3 || n==0 ){
-		return 1;
+		return n;
 	}
-	int ans=MOD;
-	for (int i = 1; i*i <n; i++)
+	
+	if(dp[n]!=MOD)
+		return dp[n];
+
+	for (int i = 1; i*i <= n; i++)
 	{
-		ans=min(ans,1+Minsquare(n-i*i));
+		dp[n]=min(dp[n],1+Minsquare(n-i*i));
 	}
-	return ans;
+	return dp[n];
 }
 
 int main(){
-	cout<<Minsquare(5)<<endl;
+	rep(i,0,N)
+		dp[i]=MOD;
+	cout<<Minsquare(1024)<<endl;
 	return 0;
 }
-
