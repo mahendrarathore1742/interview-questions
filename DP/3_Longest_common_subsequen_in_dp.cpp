@@ -47,7 +47,12 @@ int main(){
 			}
 		}
 	}
+	/*
 
+	or memset(dp,-1,sizeof(dp));
+
+
+	*/
 
 	string s1="mahedm",s2="demam",s3="apmam";
 	
