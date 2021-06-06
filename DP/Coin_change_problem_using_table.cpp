@@ -9,8 +9,6 @@ using namespace  std;
 #define ss second
 
 const int N=1e3+2;
-
-
 int main(){
 
 
