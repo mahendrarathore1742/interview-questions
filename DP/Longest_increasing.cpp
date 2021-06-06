@@ -8,9 +8,9 @@ using namespace  std;
 const int N=1e5+2;
 int dp[N];
 
-
+ 
 int lis(vi &a,int n){
-
+ 
 	if(dp[n]!=-1)
 		return dp[n];
 
