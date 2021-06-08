@@ -15,7 +15,7 @@ int power(int a,int n){
 	else
 		return (p*p)%MOD;
 
-
+   
 }
 
 signed main(){
