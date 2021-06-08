@@ -10,7 +10,6 @@ using namespace  std;
 const int N=1e5+2;
 int val[N],wt[N];
 
-
 int knapsack(int n,int w){
 
 	if(w<=0){
