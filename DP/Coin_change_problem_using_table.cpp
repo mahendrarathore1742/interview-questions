@@ -35,16 +35,7 @@ int main(){
 
 		}
 	}
-
-
-
-
-
 	cout<<dp[n][x]<<endl;
 	
-
-
-
-
 	return 0;
 }
