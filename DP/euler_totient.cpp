@@ -28,7 +28,6 @@ signed main(){
 				totient[j] /=i;
 			}
 			totient[i]=i-1;
-
 		}
 	}
 
@@ -36,8 +35,6 @@ signed main(){
 	{
 		cout<<totient[i]<<endl;
 	}
-
-
 
 	return 0;
 }
