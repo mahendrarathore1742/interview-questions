@@ -2,7 +2,6 @@
 using namespace  std;
 
 int main(){
-
 	int n=3;
 
 	vector<int> dp(n+1,0);
@@ -16,6 +15,5 @@ int main(){
 
 	}
 	cout<<dp[n]<<endl;
-
 	return 0;
 }
