@@ -17,9 +17,7 @@ int main()
 	int src;
 	cin>>src;
 	vector<int> dist(n,INF);
-
 	dist[src]=0;
-
 
 	for (int iter = 0; iter < n-1; ++iter)
 	{

@@ -9,9 +9,7 @@ bool iscycle(int src,vector<vector<int>> &adj,vector<bool> &visited,vector<int> 
 		visited[src]=true;
 		for (auto i : adj[src]){
 			if(!visited[i] and iscycle(i,adj,visited,stack)){
-				return true;
-
-				
+				return true;	
 			}
 			if(stack[i])
 				return true;
