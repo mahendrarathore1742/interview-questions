@@ -16,8 +16,6 @@ int main(){
 		cin>>u>>v;
 		adj_list[u].push_back(v);
 		indeg[v]++;
-
-	
 	}
 
 	queue<int> pq;
@@ -48,8 +46,6 @@ int main(){
 		}
 
 	}
-
-
 
 	return 0;
 }
