@@ -4,7 +4,6 @@ using namespace  std;
 int main(){
 
 	int n;cin>>n;
-
 	vector<vector<int>> v;
 
 	for (int i = 0; i <n; ++i)
@@ -25,7 +24,6 @@ int main(){
 		if(v[i][0]>=end){
 			take++;
 			end=v[i][1];
-
 		}
 	}
 
