@@ -10,7 +10,6 @@ int get_com(int idx){
 		return 0;
 	vis[idx]=true;
 	int ans=1;
-
 	for(auto i : adj[idx]){
 		if(!vis[i]){
 		ans+=get_com(i);
