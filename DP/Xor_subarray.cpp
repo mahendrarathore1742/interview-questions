@@ -26,7 +26,6 @@ TrieNode *buildTrie(vector<int> &a ){
 			curr=curr->next[bit];
 		}
 	}
-
 	return root;
 }
 
@@ -42,7 +41,6 @@ int helper(TrieNode* root,vector<int> &a){
 		{
 			
 			int bit=((num>>i) & 1) ? 0 :1;
-
 			if(it->next[bit]){
 				curr_max <<=1;
 				curr_max |= 1;
@@ -51,20 +49,11 @@ int helper(TrieNode* root,vector<int> &a){
 				curr_max <<=1;
 				curr_max |= 0;
 				it=it->next[bit xor 1];
-
 			}
-
-
-
 		}
-
 		res=max(res,curr_max);
 	}
-
-
-
 	return res;
-
 }
 
 
@@ -74,7 +63,6 @@ int main(){
 	TrieNode *root= buildTrie(a);
 	int ans=helper(root,a);
 	cout<<ans<<endl;
-
 
 	return 0;
 }
