@@ -22,7 +22,6 @@ public:
 		trie=new node();
 	}
 
-
 	void insert(string word){
 		int i=0;
 		node* it =trie;
