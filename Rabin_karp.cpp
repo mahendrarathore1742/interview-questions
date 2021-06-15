@@ -41,11 +41,5 @@ int main(){
 			cout<<"founded index "<<i<<endl;
 		}
 	}
-
-
-
-
-
-
 	return 0;
 }
