@@ -14,7 +14,6 @@ int main(){
 
 	int n=graph.size();
 	vector<vector<int>> dist=graph;
-
 	for (int k = 0; k <n; ++k)
 	{
 		for (int i = 0; i < n; ++i)
