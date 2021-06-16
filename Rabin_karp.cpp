@@ -19,15 +19,12 @@ int main(){
 	{
 		powers[i]=(powers[i-1]*p)%m;
 	}
-
 	vector<long long> h(T+1,0);
 	for (int i = 0; i < T; ++i)
 	{
 		h[i+1]= (h[i] + (t[i]- 'a'+1) * powers[i])%m;
 	}
-
 	long long h_s=0;
-
 	for (int i = 0; i <S; ++i)
 	{
 		h_s=(h_s +(s[i]-'a' + 1) * powers[i])%m;
