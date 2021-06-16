@@ -9,10 +9,8 @@ using namespace  std;
 
 
 bool compare(pii p1,pii p2){
-
 	double v1=(double)p1.ff/p1.ss;
 	double v2=(double)p2.ff/p2.ss;
-
 	return v1>v2;
 }
 
