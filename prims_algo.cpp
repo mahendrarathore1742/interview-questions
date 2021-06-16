@@ -17,7 +17,6 @@ void primsMST(int src){
 	set<vector<int>> s;
 	dist[src]=0;
 	s.insert({0,src});
-
 	while(!s.empty()){
 		auto x=*(s.begin());
 		s.erase(x);
@@ -25,8 +24,7 @@ void primsMST(int src){
 		int u=x[1];	
 		int v=parent[x[1]];
 		int w=x[0];
-		
-		
+
 		cout<<u<<" "<<v<<" "<<w<<endl;
 		cost+=w;
 
