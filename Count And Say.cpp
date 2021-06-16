@@ -9,7 +9,7 @@ string countAndSay(int A){
         return result;
     string str = "1";
     int cnt = 1;
-    
+
     for (int i = 1; i<A; ++i)
     {
         int len = str.length();
@@ -34,9 +34,5 @@ string countAndSay(int A){
 int main(){
 
 	cout<<countAndSay(3)<<endl;
-
-
-
-
 	return 0;
 }

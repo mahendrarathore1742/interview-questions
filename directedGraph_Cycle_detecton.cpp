@@ -21,7 +21,6 @@ bool iscycle(int src,vector<vector<int>> &adj,vector<bool> &visited,vector<int> 
 
 
 int main(){
-
 	int n,m;
 	cin>>n>>m;
 	vector<vector<int>> adj(n);

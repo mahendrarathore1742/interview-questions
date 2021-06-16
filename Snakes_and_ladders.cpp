@@ -8,7 +8,6 @@ int main(){
 	cin>>ladder;
 	map<int, int> lad;
 	map<int,int> snak;
-
 	for (int i = 0; i < ladder; ++i)
 	{
 		int u,v;
@@ -23,8 +22,7 @@ int main(){
 			cin>>u>>v;
 			snak[u]=v;
 	}
-
-
+	
 int move=0;
 	queue<int> q;
 	q.push(1);
