@@ -32,9 +32,7 @@ int main()
 
 
 	for(auto i:dist){
-
 		cout<<i<<" ";
-
 	}
 	cout<<endl;
 
