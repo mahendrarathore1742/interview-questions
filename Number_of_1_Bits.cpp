@@ -8,11 +8,8 @@ int Number_of_1_Bits(int A){
 	while(A>0){
 		A=A&(A-1);
 		count++;
-
 	}
-
 	return count;
-
 }
 
 int main(){

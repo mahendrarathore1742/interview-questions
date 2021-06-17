@@ -11,8 +11,6 @@ int main(){
 	string s= "na";
 	string t="mahnaendrana";
 	int T=t.size(),S=s.size();
-
-
 	powers[0]=1;
 
 	for (int i = 1; i < N; ++i)
