@@ -13,7 +13,6 @@ void build(int node,int st,int end){
 	build(2*node,st,mid);
 	build(2*node + 1,mid + 1,end);
 	tree[node] = tree[2*node] + tree[2*node+1];
-
 }
 
 int main(){
