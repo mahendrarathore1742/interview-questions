@@ -15,12 +15,7 @@ int main(){
 	{
 		mx+=(a[i+n/2]-a[i]);
 		mn+=(a[2*i+1]-a[2*i]);
-
 	}
-
 	cout<<mx<<" "<<mn<<endl;
-
-
 	return 0;
-
 }

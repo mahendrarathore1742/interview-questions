@@ -28,8 +28,6 @@ int main(){
 
 	while(!pq.empty()){
 		cnt++;
-
-
 		int x=pq.front();
 		pq.pop();
 		cout<<x<<" ";
@@ -41,10 +39,7 @@ int main(){
 			if(indeg[it]==0){
 				pq.push(it);
 			}
-
-
 		}
-
 	}
 
 	return 0;

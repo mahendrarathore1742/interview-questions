@@ -16,7 +16,6 @@ bool isCycle(int src,vector<vector<int>> &adj,vector<bool> &visited,int present)
 				}
 			}
 		}
-
 		return false;
 }
 
