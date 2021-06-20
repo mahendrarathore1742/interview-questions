@@ -7,7 +7,6 @@ using namespace  std;
 #define ff first
 #define ss second
 
-
 bool compare(pii p1,pii p2){
 	double v1=(double)p1.ff/p1.ss;
 	double v2=(double)p2.ff/p2.ss;
@@ -15,7 +14,6 @@ bool compare(pii p1,pii p2){
 }
 
 int main(){
-
 	int n;
 	cin>>n;
 	vii a(n);

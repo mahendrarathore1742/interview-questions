@@ -25,9 +25,7 @@ int main(){
 		cin>>a[i];
 
 	}
-
 	build(1,0,n-1);
-
 	for (int i = 1; i < 15; ++i)
 	{
 		cout<<tree[i]<<endl;
