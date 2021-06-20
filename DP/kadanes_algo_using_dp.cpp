@@ -14,16 +14,11 @@ const int N=1e5+2;
 int main(){
 	int n;
 	cin>>n;
-
 	vi a(n);
-
 	rep(i,0,n)
 		cin>>a[i];
 
-
 	int curr=0,Max=0;
-
-
 	rep(i,0,n){
 		curr+=a[i];
 
