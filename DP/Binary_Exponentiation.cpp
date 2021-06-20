@@ -24,7 +24,6 @@ int power(int a,int n){
 signed main(){
 
 	int a=2,n=5;
-	
 	cout<<power(a,n)<<endl;
 	return 0;
 

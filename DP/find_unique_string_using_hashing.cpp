@@ -16,9 +16,7 @@ long long calculate_hashes(string s){
 
 	}
 
-
 	return hash;
-
 }
 
 
