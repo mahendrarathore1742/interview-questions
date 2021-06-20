@@ -19,15 +19,12 @@ int query(int node,int st,int ed,int l,int r){
 	if(st> r || ed<l){
 		return 0;
 	}
-
 	if(l<=st && ed<= r){
 		return tree[node];
 	}
-
 	int mid=(st+ed)/2;
 	int q1=query(2 * node,st,mid,l,r);
 	int q2=query(2 * node+1,mid+1,ed,l,r);
-
 	return q1+q2;
 }
 
@@ -55,7 +52,5 @@ int main(){
 			cout<<ans<<endl;
 			}
 	}
-
-
 	return 0;
 }
