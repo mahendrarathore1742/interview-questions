@@ -11,7 +11,6 @@ const int N=1e5+2;
 
 int main(){
 	int n=5;
-
 	vi dp(n+1);
 	dp[0]=1;
 	dp[1]=1;
