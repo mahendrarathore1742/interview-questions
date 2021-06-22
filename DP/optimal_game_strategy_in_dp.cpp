@@ -17,13 +17,9 @@ int solve(int i,int j){
 	if(dp[i][j]!=-1){
 		return dp[i][j];
 	}
-
-
 	int l=a[i] + min(solve(i+2,j),solve(i+1,j-1));
 	int r=a[j]+min(solve(i,j-2),solve(i+1,j-1));
-
 	dp[i][j]= max(l,r);
-
 	return dp[i][j];
 }
 
