@@ -14,7 +14,6 @@ int Minsquare(int n){
 	if(n==1 || n==2 || n==3 || n==0 ){
 		return n;
 	}
-	
 	if(dp[n]!=MOD)
 		return dp[n];
 
