@@ -35,15 +35,12 @@ int main(){
 
 	int n,m;
 	cin>>n>>m;
-
 	vector<vector<int>> edge;
-
 	for (int i = 0; i <m; ++i)
 	{
 		int u,v;
 		cin>>u>>v;
 		edge.push_back({u,v});
-
 	}
 	bool cycle=false;
 
