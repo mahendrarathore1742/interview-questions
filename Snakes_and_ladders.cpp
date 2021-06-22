@@ -14,7 +14,6 @@ int main(){
 		cin>>u>>v;
 		lad[u]=v;
 	}
-
 	cin>>snakes;
 	for (int i = 0; i < snakes; ++i)
 	{
