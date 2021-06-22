@@ -12,7 +12,6 @@ int main(){
 		cin>>i;
 
 	vector<int> jumps(n,inf);
-
 	if(arr[0]==0){
 		cout<<inf<<" " ;
 		return 0;

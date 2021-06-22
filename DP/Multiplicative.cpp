@@ -33,8 +33,6 @@ int multiplicativeModuloInverse(int a,int m){
 signed main(){
 
 	int a=17,m=3;
-
 	cout<<multiplicativeModuloInverse(a,m)<<endl;
-
 	return 0;
 }
