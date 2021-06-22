@@ -8,7 +8,6 @@ using namespace  std;
 #define ss second
 
 int main(){
-
 	int n;
 	cin>>n;
 	vi a(n);

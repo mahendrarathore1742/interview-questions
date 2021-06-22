@@ -20,7 +20,6 @@ int get_com(int idx){
 }
 
 int main(){
-
 	cin>>n>>m;
 	adj=vector<vector<int>>(n);
 	vis=vector<bool>(n,0);

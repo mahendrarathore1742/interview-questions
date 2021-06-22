@@ -35,9 +35,6 @@ int main(){
 		adja[y].push_back(x);
 	}
 
-
-
-
 	rep(i,1,n+1){
 		cout<<i<<"->";
 		for(int x:adja[i])
