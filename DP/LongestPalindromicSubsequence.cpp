@@ -11,8 +11,6 @@ using namespace  std;
 const int N=1e3+2;
 
 int dp[N][N];
-
-
 int  solve(string s) {
     int n=s.length();
     int dp[n][n];

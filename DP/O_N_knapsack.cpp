@@ -9,10 +9,7 @@ int main(){
 
 	vector<int> wt={3,2,4,5,1};
 	vector<int> val={4,3,5,6,1};
-
 	vector<int> dp(W+1,0);
-
-
 	for (int i = 0; i <=W; ++i)
 	{
 		for (int j = 0; j <n; ++j)
@@ -25,7 +22,5 @@ int main(){
 	}
 
 	cout<<dp[W]<<endl;
-
-
 	return 0;
 }

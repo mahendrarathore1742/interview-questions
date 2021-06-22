@@ -7,7 +7,6 @@ vector<vector<int>> multiply(vector<vector<int>> &a,vector<vector<int>> &b){
 
 	int n=a.size();
 	vector<vector<int>> ans(n,vector<int>(n,0));
-
 	for (int i = 0; i < n; ++i)
 	{
 		for (int j = 0; j <n ; ++j)
@@ -31,17 +30,14 @@ vector<vector<int>> matrixExponentiate(vector<vector<int>> &a,int n){
 		{
 			ans[i][i]=1;
 		}
-
 		return ans;
 	}
-
 	if(n==1){
 			return a;
 		}
 
 	vector<vector<int>> temp= matrixExponentiate(a,n/2);
 	vector<vector<int>> ans=multiply(temp,temp);
-
 	if(n&1)
 		ans = multiply(ans,a);
 	return ans;

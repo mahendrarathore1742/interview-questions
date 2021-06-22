@@ -28,7 +28,6 @@ triplet extendedEuclid(int a,int b){
 int multiplicativeModuloInverse(int a,int m){
 	triplet temp=extendedEuclid(a,m);
 	return temp.x;
-
 }
 
 signed main(){
