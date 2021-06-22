@@ -46,7 +46,6 @@ vector<vector<int>> matrixExponentiate(vector<vector<int>> &a,int n){
 
 signed main(){
 	int n=6;
-
 	vector<vector<int>> a={{1,1},{1,0}};
 	vector<vector<int>> ans= matrixExponentiate(a,n);
 	int sz=ans.size();
