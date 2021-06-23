@@ -56,7 +56,6 @@ int helper(TrieNode* root,vector<int> &a){
 	return res;
 }
 
-
 int main(){
 
 	vector<int> a={3,10,5,15,2};
