@@ -39,7 +39,6 @@ public:
 		int i=0;
 		node *it= trie;
 		while(i<word.size()){
-
 			if(it->next[word[i]-'a']==NULL)
 				return false;
 			it=it->next[word[i]-'a'];

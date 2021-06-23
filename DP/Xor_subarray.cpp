@@ -57,11 +57,9 @@ int helper(TrieNode* root,vector<int> &a){
 }
 
 int main(){
-
 	vector<int> a={3,10,5,15,2};
 	TrieNode *root= buildTrie(a);
 	int ans=helper(root,a);
 	cout<<ans<<endl;
-
 	return 0;
 }
