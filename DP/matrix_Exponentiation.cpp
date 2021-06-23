@@ -41,7 +41,6 @@ vector<vector<int>> matrixExponentiate(vector<vector<int>> &a,int n){
 	if(n&1)
 		ans = multiply(ans,a);
 	return ans;
-
 }
 
 signed main(){
