@@ -5,7 +5,6 @@ vector<vector<int>> adj;
 vector<bool> vis;
 vector<int> col;
 bool Bipart;
-
 void color(int u,int curr){
 
 	if(col[u]!=-1 and col[u]!=curr){
@@ -18,12 +17,9 @@ void color(int u,int curr){
 	}
 
 	vis[u]=true;
-
 	for(auto i:adj[u]){
 		color(i,curr xor 1);
-
 	}
-
 }
 int main(){
 
