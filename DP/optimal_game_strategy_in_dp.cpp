@@ -9,11 +9,9 @@ int solve(int i,int j){
 	if(i==j){
 		return a[i];
 	}
-
 	if(i>j){
 		return 0;
 	}
-
 	if(dp[i][j]!=-1){
 		return dp[i][j];
 	}

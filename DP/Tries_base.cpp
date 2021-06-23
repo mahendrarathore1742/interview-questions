@@ -28,7 +28,6 @@ void insert(int num){
 
 int query(int num){
 	node *it=trie;
-
 	int ans=0;
 
 	for (int i = int_size-1; i >=0 ; i--)

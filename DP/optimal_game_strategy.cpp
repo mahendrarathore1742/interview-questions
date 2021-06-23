@@ -22,6 +22,6 @@ int main(){
 	for(auto &i :a){
 		cin>>i;
 	}
-	cout<<solve(0,n-1)<<endl;
+	cout<<solve(0,n-1)<<endl; 
 	return 0;
 }

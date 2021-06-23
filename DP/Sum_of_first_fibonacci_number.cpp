@@ -25,8 +25,6 @@ vector<vector<int>> multiply(vector<vector<int>> &a,vector<vector<int>> &b){
 vector<vector<int>> matrixExponentiate(vector<vector<int>> &a,int n){
 
 	if(n==0){
-
-
 	int sz=a.size();
 	vector<vector<int> > ans(sz,vector<int>(sz,0));
 	for(int i=0;i<sz;i++){
