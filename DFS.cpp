@@ -12,7 +12,6 @@ void dfs(int node){
 	vist[node]=1;
 	//preorder
 	// cout<<node<<" ";
-
 	for(auto it: adj[node]){
 		if(vist[it]);
 		else{
@@ -33,7 +32,6 @@ int main(){
 	}
 
 	int x,y;
-
 	for (int i = 0; i <m; ++i)
 	{
 		cin>>x>>y;

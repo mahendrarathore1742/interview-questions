@@ -27,6 +27,7 @@ void union_sets(int a,int b){
 	}
 }
 
+
 int main(){
 	for (int i = 0; i <N; ++i)
 	{
