@@ -28,6 +28,5 @@ int main(){
 	cin>>s1>>s2;
 	int n=s1.size(),m= s2.size();
 	cout<<lcs(s1,s2,n,m)<<endl;
-
 	return 0;
 }

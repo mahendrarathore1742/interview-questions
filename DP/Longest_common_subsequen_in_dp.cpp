@@ -35,11 +35,9 @@ int main(){
 			dp[i][j]=-1;
 		}
 	}
-
 	string s1,s2;
 	cin>>s1>>s2;
 	int n=s1.size(),m= s2.size();
 	cout<<lcs(s1,s2,n,m)<<endl;
-
 	return 0;
 }
