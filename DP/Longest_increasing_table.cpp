@@ -21,9 +21,6 @@ int main(){
 		}
 		ans=max(ans,dp[i]);
 	}
-
-
 	cout<<ans<<endl;
-
 	return 0;
 }

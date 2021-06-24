@@ -21,7 +21,7 @@ int Minsquare(int n){
 	}
 	return ans;
 }
-
+ 
 int main(){
 	cout<<Minsquare(5)<<endl;
 	return 0;
