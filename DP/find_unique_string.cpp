@@ -1,11 +1,7 @@
 #include <bits/stdc++.h>
 using namespace  std;
 
-
-
 int main(){
-
-
 	vector<string> strings ={"aa","ab","aa","b","cc","aa"};
 	sort(strings.begin(), strings.end());
 

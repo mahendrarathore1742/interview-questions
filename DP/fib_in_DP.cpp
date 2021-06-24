@@ -9,7 +9,6 @@ using namespace  std;
 const int N=1e5+2;
 
 int dp[N];
-
 int fib(int n){
 
 	if(n==0)
