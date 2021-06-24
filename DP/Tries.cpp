@@ -16,7 +16,6 @@ public:
    				}
    			}
 	};
-
 	node *trie;
 	Trie(){
 		trie=new node();

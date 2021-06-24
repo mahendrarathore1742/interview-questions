@@ -6,7 +6,6 @@ using namespace  std;
 #define  rep(i,a,b) for(int i=a;i<b;i++)
 #define ff first
 #define ss second
-
 const int N=1e5+2;
 
 int main(){
@@ -18,7 +17,6 @@ int main(){
 	rep(i,3,n+1){
 		dp[i]=dp[i-1]+dp[i-2]+dp[i-3];
 	}
-
 	cout<<dp[n]<<endl;
 	return 0;
 }
