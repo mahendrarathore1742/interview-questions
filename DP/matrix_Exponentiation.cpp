@@ -34,7 +34,7 @@ vector<vector<int>> matrixExponentiate(vector<vector<int>> &a,int n){
 	}
 	if(n==1){
 			return a;
-		}
+	}
 
 	vector<vector<int>> temp= matrixExponentiate(a,n/2);
 	vector<vector<int>> ans=multiply(temp,temp);

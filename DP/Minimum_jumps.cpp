@@ -18,7 +18,6 @@ int main(){
 	}
 
 	jumps[0]=0;
-
 	for (int i = 1; i < n; ++i)
 	{
 		for (int j = 0; j < i; ++j)
@@ -30,6 +29,6 @@ int main(){
 		}
 	}
 
-		cout<<jumps[n-1]<<endl;
+	cout<<jumps[n-1]<<endl;
 	return 0;
 }
