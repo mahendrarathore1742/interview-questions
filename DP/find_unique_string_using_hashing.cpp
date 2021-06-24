@@ -13,9 +13,7 @@ long long calculate_hashes(string s){
 	for (int i = 0; i < s.size(); ++i)
 	{
 		hash += (hash + (s[i] - 'a' + 1) * power[i])%m;
-
 	}
-
 	return hash;
 }
 

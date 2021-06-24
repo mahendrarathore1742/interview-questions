@@ -30,8 +30,6 @@ int main(){
 
 	int n =9;
 	vi a={10,22,9,33,21,50,52,60,80};
-
 	cout<<lis(a,n-1)<<endl;
-
 	return 0;
 }

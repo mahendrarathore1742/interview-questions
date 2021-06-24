@@ -24,7 +24,6 @@ int main(){
 	string s="na";
 	vector<int> prefix =prefix_fun(s);
 	string t="apnacollege";
-
 	int pos=-1;
 	int i(0),j(0);
 
@@ -49,6 +48,5 @@ int main(){
 	}
 
 	cout<<pos<<endl;
-
 	return 0;
 }
