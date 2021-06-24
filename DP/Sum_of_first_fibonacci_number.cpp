@@ -38,7 +38,6 @@ vector<vector<int>> matrixExponentiate(vector<vector<int>> &a,int n){
 
 	vector<vector<int>> temp=matrixExponentiate(a,n/2);
 	vector<vector<int>> ans=multiply(temp,temp);
-
 	if(n&1)
 		ans = multiply(ans,a);
 	return ans;
@@ -49,15 +48,11 @@ vector<vector<int>> matrixExponentiate(vector<vector<int>> &a,int n){
 signed main(){
 
 	int n=7;
-
 	vector<vector<int>> a(3,vector<int>(3,0));
-
 	a[0][0]=a[0][1]=a[0][2]=1;
 	a[1][1]=a[1][2]=1;
 	a[2][1]=1;
-
 	vector<vector<int>> ans= matrixExponentiate(a,n);
-
 	int sz=3;
 	for (int i = 0; i < sz; ++i)
 	{
@@ -67,6 +62,5 @@ signed main(){
 		}
 		cout<<endl;
 	}
-
 	return 0;
 }

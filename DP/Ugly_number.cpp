@@ -23,7 +23,6 @@ int main(){
 		if(5 * dp[c5]==dp[i])
 			c5++;	
 	}
-
 	cout<<dp[n-1]<<endl;
 	return 0;
 }
