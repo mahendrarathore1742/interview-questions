@@ -15,6 +15,7 @@ int main(){
 	rep(i,0,n)
 		cin>>a[i];
 
+
 	int curr=0,Max=0;
 	rep(i,0,n){
 		curr+=a[i];

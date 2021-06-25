@@ -29,7 +29,6 @@ void insert(int num){
 int query(int num){
 	node *it=trie;
 	int ans=0;
-
 	for (int i = int_size-1; i >=0 ; i--)
 	{
 		int curr_bit=(num>>i) & 1;
@@ -41,13 +40,10 @@ int query(int num){
 			it=it->next[opposite xor 1];
 		}
 	}
-
 	return ans;
-
 }
 
 int main(){
-
 	int n;
 	cin>>n;
 	vector<int> a(n);
