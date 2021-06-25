@@ -12,7 +12,6 @@ signed main(){
 	for (int i = 0; i < N; ++i)
 	{
 		totient[i]=i;
-
 	}
 
 	for (int i = 2; i < N; ++i)

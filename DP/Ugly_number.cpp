@@ -8,7 +8,7 @@ using namespace  std;
 #define ss second
 
 int main(){
-
+ 
 	int n=10;
 	int c2(0),c3(0),c5(0);
 	vector<int> dp(n+1);

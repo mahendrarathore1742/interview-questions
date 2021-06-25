@@ -9,7 +9,7 @@ using namespace  std;
 
 int main(){
 	int n=6;
-
+ 
 	string s="ac?b?c";
 	int e=1,a=0,ab=0,abc=0;
 	rep(i,0,n){
