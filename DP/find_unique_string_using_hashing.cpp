@@ -39,13 +39,9 @@ int main(){
 	{
 		if(i==0 or hashes[i]!=hashes[i-1]){
 			distinct++;
-
 		}
 	}
-
-
 	cout<<distinct<<endl;
-
 
 	return 0;
 }

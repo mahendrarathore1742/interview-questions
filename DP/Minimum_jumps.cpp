@@ -24,7 +24,6 @@ int main(){
 		{
 			if(i<=(j+arr[j])){
 				jumps[i]=min(jumps[i],jumps[j]+1);
-
 			}
 		}
 	}

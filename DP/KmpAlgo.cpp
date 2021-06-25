@@ -44,9 +44,8 @@ int main(){
 		if(j==s.size()){
 			pos=i - s.size();
 			break;
-			}
+		}
 	}
-
 
 	cout<<pos<<endl;
 	return 0;
