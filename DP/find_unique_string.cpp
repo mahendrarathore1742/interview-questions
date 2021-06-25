@@ -14,7 +14,6 @@ int main(){
 
 		}
 	}
-
 	cout<<distinct<<endl;
 	return 0;
 }
