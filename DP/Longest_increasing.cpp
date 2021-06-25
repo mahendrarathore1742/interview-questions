@@ -24,7 +24,6 @@ int lis(vi &a,int n){
 }
 
 int main(){
-
 	rep(i,0,N)
 		dp[i]=-1;
 

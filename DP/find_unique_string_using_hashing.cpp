@@ -34,10 +34,7 @@ int main(){
 	}
 
 	sort(hashes.begin(), hashes.end());
-
-
 	int distinct=0;
-
 	for (int i = 0; i < hashes.size(); ++i)
 	{
 		if(i==0 or hashes[i]!=hashes[i-1]){

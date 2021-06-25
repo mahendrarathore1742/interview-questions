@@ -11,7 +11,6 @@ int main(){
 	{
 		if(i==0 or strings[i]!=strings[i-1]){
 			distinct++;
-
 		}
 	}
 	cout<<distinct<<endl;
