@@ -16,4 +16,4 @@ int main(){
 	SingleNumber(v);
 	
 	return 0;
-}
+} 

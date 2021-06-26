@@ -21,7 +21,7 @@ int main(){
 			cin>>u>>v;
 			snak[u]=v;
 	}
-	
+	 
 int move=0;
 	queue<int> q;
 	q.push(1);
