@@ -20,7 +20,7 @@ void union_sets(int a,int b){
 
 	if(a!=b){
 		if(sz[a]<sz[b]){
-			swap(a,b);
+	 		swap(a,b);
 		}
 		parent[b]=a;
 		sz[a]+=sz[b];
