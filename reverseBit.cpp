@@ -14,4 +14,4 @@ using namespace  std;
 int main(){
 	cout<<reversBit(3)<<endl;
 	return 0;
-}
+} 

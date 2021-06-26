@@ -21,7 +21,7 @@ int main(){
 	for (int i = 0; i <n; ++i)
 	{ 
 		ans+=int(x/a[i]);
-		x-=x/a[i]*a[i];
+	 	x-=x/a[i]*a[i];
 	}
 	cout<<ans<<" "<<endl;
 

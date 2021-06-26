@@ -22,4 +22,4 @@ int main(){
 	std::vector<string> v={"abcdefgh", "aefghijk", "abcefgh"};
 	cout<<longestCommonPrefix(v)<<endl;
 
-} 
+}  
