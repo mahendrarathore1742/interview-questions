@@ -16,4 +16,4 @@ int main(){
 
 	cout<<Number_of_1_Bits(00000000000000000000000000001011)<<endl;
 	return 0;
-}
+} 

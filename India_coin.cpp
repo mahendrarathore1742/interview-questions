@@ -19,7 +19,7 @@ int main(){
 	sort(a.begin(), a.end(),greater<int>());
 	int ans=0;
 	for (int i = 0; i <n; ++i)
-	{
+	{ 
 		ans+=int(x/a[i]);
 		x-=x/a[i]*a[i];
 	}
