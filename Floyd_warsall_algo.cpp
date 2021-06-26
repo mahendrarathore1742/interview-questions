@@ -20,7 +20,7 @@ int main(){
 			{
 				if(dist[i][k] +dist[k][j] < dist[i][j]){
 					dist[i][j]=dist[i][k] +dist[k][j];
-				}
+	  			}
 			}
 		}
 	}

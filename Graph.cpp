@@ -18,7 +18,7 @@ int main(){
 		cin>>x>>y;
 		adj[x][y]=1;
 		adj[y][x]=1;
-	}
+	} 
 	rep(i,1,n+1){
 		rep(j,1,n+1){
 			cout<<adj[i][j]<<" ";

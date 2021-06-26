@@ -12,7 +12,6 @@ int main(){
 	{
 		vist[i]=0;
 	}
-
 	int n,m;
 	cin>>n>>m;
 	int x,y;
