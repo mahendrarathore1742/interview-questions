@@ -15,7 +15,7 @@ int main(){
 	for (int i = 1; i < N; ++i)
 	{
 		powers[i]=(powers[i-1]*p)%m;
-	}
+	} 
 	vector<long long> h(T+1,0);
 	for (int i = 0; i < T; ++i)
 	{

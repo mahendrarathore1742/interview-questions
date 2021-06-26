@@ -10,7 +10,6 @@ int main(){
 	}
 	sort(a.begin(), a.end());
 	long long mn=0,mx=0;
-
 	for (int i = 0; i <n/2; ++i)
 	{
 		mx+=(a[i+n/2]-a[i]);

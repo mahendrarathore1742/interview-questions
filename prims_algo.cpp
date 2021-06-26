@@ -13,7 +13,7 @@ void primsMST(int src){
 	for (int i = 1; i < n; ++i)
 	{
 		dist[i]=INF;
-	}
+	} 
 	set<vector<int>> s;
 	dist[src]=0;
 	s.insert({0,src});

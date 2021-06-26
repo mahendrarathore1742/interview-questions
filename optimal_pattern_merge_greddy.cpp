@@ -15,7 +15,7 @@ int main(){
 	{
 		minheap.push(a[i]);
 	}
-
+ 
 	int ans=0;
 	while(minheap.size()>1)
 	{
