@@ -14,7 +14,7 @@ int main(){
 			if(i-wt[j]>=0){
 				dp[i]=max(dp[i],val[j]+dp[i-wt[j]]);
 			}	
-		}
+	 	}
 	}  
 	cout<<dp[W]<<endl;
 	return 0;
