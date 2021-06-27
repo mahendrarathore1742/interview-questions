@@ -2,7 +2,7 @@
 using namespace  std;
 
 string longestCommonPrefix(vector<string> &A){
-
+ 
 	 if(A.size()<=1)
         return A[0];
     

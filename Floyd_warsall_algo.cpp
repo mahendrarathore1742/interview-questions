@@ -2,7 +2,7 @@
 using namespace std;
 const int INF=1e9;
 
-int main(){
+int main(){ 
 	vector<vector<int>> graph={
 		{0,5,INF,10},
 		{INF,0,3,INF},
