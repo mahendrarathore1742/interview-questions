@@ -6,7 +6,7 @@ using namespace  std;
 #define  rep(i,a,b) for(int i=a;i<b;i++)
 #define ff first
 #define ss second
-
+ 
 int main(){
 	int n;
 	cin>>n;
