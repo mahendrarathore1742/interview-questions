@@ -31,9 +31,6 @@ int CoinChange(vi &a,int n,int x){
 
 
 	return dp[n][x];
-
-
-
 }
 
 int main(){
