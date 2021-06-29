@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace  std;
-
+ 
 void change(vector<vector<char>> &A,int x,int y){
 
 	A[x][y]='*';

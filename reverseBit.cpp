@@ -1,5 +1,5 @@
 #include <bits/stdc++.h>
-using namespace  std;
+using namespace   std;
 
  unsigned int reversBit( unsigned int A){
 	int ans=0;
