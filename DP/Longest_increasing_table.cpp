@@ -5,8 +5,8 @@ using namespace  std;
 #define vii vector<pii>
 #define  rep(i,a,b) for(int i=a;i<b;i++)
 const int N=1e5+2;
-
-
+ 
+  
 int main(){
 
 	int n =9;

@@ -21,7 +21,7 @@ int lcs(string &s1,string &s2,int n,int m){
 		return max(lcs(s1,s2,n,m-1),lcs(s1,s2,n-1,m));
 	}
 }
-
+ 
 int main(){
 
 	string s1,s2;
