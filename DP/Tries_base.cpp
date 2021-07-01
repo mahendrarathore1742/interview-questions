@@ -12,7 +12,7 @@ public:
 		{
 		  next[i]=NULL;
 		}
-	}
+	} 
 };
 node *trie;
 void insert(int num){
