@@ -13,7 +13,7 @@ signed main(){
 	{
 		totient[i]=i;
 	}
-
+ 
 	for (int i = 2; i < N; ++i)
 	{
 		if(totient[i]==i){
