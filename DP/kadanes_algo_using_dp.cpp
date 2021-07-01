@@ -20,7 +20,7 @@ int main(){
 	rep(i,0,n){
 		curr+=a[i];
 		Max=max(Max,curr);
-		if(curr<0)
+ 		if(curr<0)
 			curr=0;
 	}
 

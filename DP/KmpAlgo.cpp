@@ -20,7 +20,7 @@ vector<int> prefix_fun(string s){
 }
 
 int main(){
-
+ 
 	string s="na";
 	vector<int> prefix =prefix_fun(s);
 	string t="apnacollege";
