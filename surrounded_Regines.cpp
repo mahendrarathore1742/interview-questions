@@ -12,7 +12,7 @@ void change(vector<vector<char>> &A,int x,int y){
 		int cy=y+dy[i];
 		if(cx>=0 and cx<A.size() and cy>=0 and cy<A[0].size() and A[cx][cy]=='O'){
 			change(A,cx,cy);
-		}
+		} 
 	}
 }
 
