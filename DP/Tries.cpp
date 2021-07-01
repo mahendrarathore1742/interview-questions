@@ -15,7 +15,7 @@ public:
    				next[i]=NULL;
    				}
    			}
-	};
+	}; 
 	node *trie;
 	Trie(){
 		trie=new node();

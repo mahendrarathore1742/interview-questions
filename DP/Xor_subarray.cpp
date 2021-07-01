@@ -8,7 +8,7 @@ public:
 	TrieNode(){
 		next[0]=NULL;
 		next[1]=NULL;
-	}
+	} 
 };
 
 TrieNode *buildTrie(vector<int> &a ){
