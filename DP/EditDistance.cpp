@@ -13,7 +13,7 @@ const int N=1e3+2;
 int dp[N][N];
 int  minDistance(string A, string B) {
     int n=A.length(),m=B.length();
-    
+ 
     vector<vector<int>> dp(n+1,vector<int>(m+1,0));
 
     for(int i=0;i<=n;i++){

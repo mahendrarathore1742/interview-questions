@@ -28,8 +28,6 @@ int CoinChange(vi &a,int n,int x){
 	}
 
 	dp[n][x]= CoinChange(a,n,x-a[n-1])+CoinChange(a,n-1,x);
-
-
 	return dp[n][x];
 }
 
