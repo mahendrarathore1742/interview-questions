@@ -2,7 +2,7 @@
 using namespace  std;
 
 
-int main(){
+int main(){ 
 	int n=3;
 
 	vector<int> dp(n+1,0);
