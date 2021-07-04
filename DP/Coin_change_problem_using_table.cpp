@@ -10,7 +10,7 @@ using namespace  std;
 
 const int N=1e3+2;
 int main(){
-
+	
 	int n;
 	cin>>n;
 	vi a(n);
