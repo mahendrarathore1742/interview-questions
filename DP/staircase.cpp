@@ -7,6 +7,7 @@ using namespace  std;
 #define ff first
 #define ss second
 
+
 int N=1e5+2;
 int staircase(int n){
 	if(n==0 ){

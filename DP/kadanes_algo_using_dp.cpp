@@ -7,7 +7,7 @@ using namespace  std;
 #define ff first
 #define ss second
 const int N=1e5+2;
-
+ 
 int main(){
 	int n;
 	cin>>n;

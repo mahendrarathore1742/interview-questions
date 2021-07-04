@@ -5,7 +5,7 @@ vector<int> prefix_fun(string s){
 
 	int n=s.size();
 	vector<int> pi(n,0);
-
+	
 	for (int i = 1; i < n; i++)
 	{
 		int j=pi[i-1];
