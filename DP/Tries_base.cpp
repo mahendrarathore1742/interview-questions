@@ -1,7 +1,5 @@
 #include <bits/stdc++.h>
 using namespace  std;
-
-
 int int_size=32;
 
 class node{
