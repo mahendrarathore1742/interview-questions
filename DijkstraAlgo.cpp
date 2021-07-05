@@ -2,7 +2,7 @@
 using namespace  std;
 
 const int inf=1e7;
-
+ 
 int main(){
 	int n,m;
 	cin>>n>>m;

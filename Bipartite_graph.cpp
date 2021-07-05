@@ -6,7 +6,7 @@ vector<bool> vis;
 vector<int> col;
 bool Bipart;
 void color(int u,int curr){
-
+  
 	if(col[u]!=-1 and col[u]!=curr){
 		Bipart=false;
 		return;

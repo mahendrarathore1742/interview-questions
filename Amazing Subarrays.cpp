@@ -2,7 +2,7 @@
 using namespace  std;
 const int mod=10003;
 
-
+ 
 int AmazingSubarrays(string A){
 	int n=A.size(),cnt=0;
 	for (int i = 0; i < n; ++i)
