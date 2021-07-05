@@ -6,7 +6,7 @@ vector<int> sz(N);
 void make_set(int v){
 	parent[v]=v;
 	sz[v]=1;
-}
+} 
 int find_set(int v){
 	if(v==parent[v]){
 		return v;

@@ -10,8 +10,8 @@ using namespace   std;
 	}
 	return ans;
 }
-
+ 
 int main(){
 	cout<<reversBit(3)<<endl;
 	return 0;
-} 
+}  
