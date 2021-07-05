@@ -1,7 +1,6 @@
 #include <bits/stdc++.h>
 using namespace  std;
 
-
 int main(){ 
 	int n=3;
 
@@ -16,4 +15,4 @@ int main(){
 	}
 	cout<<dp[n]<<endl;
 	return 0;
-} 
+}
