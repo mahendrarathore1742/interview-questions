@@ -11,7 +11,6 @@ void SingleNumber(vector<int> &A){
 }
 
 int main(){
-
 	std::vector<int> v={1, 2, 2, 3, 1};
 	SingleNumber(v);
 	return 0;

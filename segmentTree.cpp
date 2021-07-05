@@ -23,7 +23,6 @@ int main(){
 	for (int i = 0; i < n; ++i)
 	{
 		cin>>a[i];
-
 	}
 	build(1,0,n-1);
 	for (int i = 1; i < 15; ++i)

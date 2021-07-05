@@ -27,7 +27,7 @@ void primsMST(int src){
 
 		cout<<u<<" "<<v<<" "<<w<<endl;
 		cost+=w;
-
+		
 		for(auto it : g[x[1]]){
 			if(vis[it[0]]){
 				continue;
