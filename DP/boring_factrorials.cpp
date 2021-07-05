@@ -13,10 +13,7 @@ int power(int x,int y,int p){
 		y=y>>1;
 		x=(x*x)%p;
 	}
-
 	return res;
-
-
 }
 
 int modInverse(int a,int p){

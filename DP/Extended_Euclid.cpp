@@ -17,7 +17,7 @@ triplet extendedEuclid(int a,int b){
 		ans.gcd=a;
 		ans.y=0;
 		return ans;
-	}  
+	}   
 
 	triplet smallans=extendedEuclid(b,a%b);
 	triplet ans;
