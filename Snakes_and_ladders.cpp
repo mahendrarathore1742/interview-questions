@@ -70,6 +70,5 @@ int move=0;
 	}else{
 		cout<<-1<<endl;
 	}
-
 	return 0;
 }

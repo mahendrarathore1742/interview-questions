@@ -31,7 +31,6 @@ int main(){
 		int x=pq.front();
 		pq.pop();
 		cout<<x<<" ";
-
 		for(auto it: adj_list[x]){
 
 			indeg[it]--;
